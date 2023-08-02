@@ -16,7 +16,7 @@ Before you begin, make sure you have the following installed:
 
 2. Set up your AWS credentials using the AWS CLI.
 
-3. Navigate to the directory where you saved the Terraform configuration file (main.tf).
+3. Navigate to the directory where you saved the Terraform configuration file (ec2 Creation.tf).
 
 4. Initialize Terraform by running the following command:
 
@@ -25,7 +25,7 @@ Before you begin, make sure you have the following installed:
 
 
 
-5. Review the configuration in the main.tf file to ensure it matches your requirements. You can customize the AWS region, instance type, AMI, key pair, etc.
+5. Review the configuration in the ec2 Creation.tf file to ensure it matches your requirements. You can customize the AWS region, instance type, AMI, key pair, etc.
 
 6. Create and apply the Terraform configuration to create the EC2 instance and security group:
 
@@ -55,4 +55,4 @@ This will remove the EC2 instance and the associated security group from your AW
 
 Happy Terraforming!
 
-You can add this content to a file named "README.md" in the same directory where you have the Terraform configuration file (main.tf). Make sure to update any placeholders (e.g., <PUBLIC_IP_ADDRESS>) with actual values before committing the README.md file to your GitHub repository.
+You can add this content to a file named "README.md" in the same directory where you have the Terraform configuration file (ec2 Creation.tf). Make sure to update any placeholders (e.g., <PUBLIC_IP_ADDRESS>) with actual values before committing the README.md file to your GitHub repository.
